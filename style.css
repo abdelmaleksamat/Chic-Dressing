@@ -1,0 +1,77 @@
+/*
+Theme Name:		 chicdressing
+Theme URI:		 http://childtheme-generator.com/
+Description:	 chicdressing is a child theme of Ashe, created by ChildTheme-Generator.com
+Author:			 Chic Dressing
+Author URI:		 http://childtheme-generator.com/
+Template:		 ashe
+Version:		 1.0.0
+Text Domain:	 chicdressing
+*/
+
+
+@font-face {
+    font-family: 'Kalam';
+    src:url('Kalam-Regular.woff2') format("woff2");
+}
+
+* {
+    font-family: 'Kalam', sans-serif !important;
+}
+
+/* Add your custom styles here */
+h6 {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    margin-bottom: 4px;
+}
+
+body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
+    color: #000000;
+    font-size: 15px;
+}
+
+
+body .header-logo a{
+    color: white;
+    text-shadow: 2px 3px 5px #d0527a;
+    transform: rotate(-9deg);
+}
+.text-center{
+    text-align:center;
+}
+
+.chic-bouton{
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 14px;
+}
+
+#featured-slider{
+    margin-bottom:30px;
+}
+#chic-products{
+    padding:0 40px;
+}
+.chic-title{
+    font-family: 'Kalam';
+    font-size: 55px;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    margin:30px 40px;
+    text-align:center;
+    color: #9d4c64 !important;
+    line-height: 50px;
+}
+#chic-products ul.products li.product{
+    background: #ffffff;
+    padding-bottom: 20px;
+}
